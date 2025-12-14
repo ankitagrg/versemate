@@ -34,6 +34,7 @@ const BookCard: React.FC<BookCardProps> = ({ book, variant = 'search' }) => {
             <Plus className="h-5 w-5" />
           </button>
         )}
+      
         
         {variant === 'reading' && (
           <div className="absolute bottom-4 right-4 flex space-x-2">
