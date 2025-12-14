@@ -23,6 +23,7 @@ const Navbar = () => {
                 className="h-6 w-6"/>
               <span className="text-xl font-bold text-black-800">VerseMate</span>
             </Link>
+            
           </div>
           {/* Navigation Links */}
           <div className="flex space-x-8">
@@ -37,7 +38,14 @@ const Navbar = () => {
               <Search className="h-5 w-5" />
               <span>Search</span>
             </Link>
-            
+
+              
+              <link rel="stylesheet" href="assets/open-book.png" />
+
+           
+           
+           
+           
             {/* Reading List Link */}
             <Link
               to="/reading-list"
@@ -49,6 +57,7 @@ const Navbar = () => {
               <BookMarked className="h-5 w-5" />
               <span>Reading List</span>
             </Link>
+            <link rel="stylesheet" href="assets/open-book.png" />
             
             {/* Completed Link */}
             <Link
